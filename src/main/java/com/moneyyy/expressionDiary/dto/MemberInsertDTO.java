@@ -18,7 +18,7 @@ public class MemberInsertDTO {
     private String password;
 
     @Builder
-    public MemberInsertDTO(Long id, String password) {
+    public MemberInsertDTO(Long memberId, String password) {
         this.memberId = memberId;
         this.password = password;
     }

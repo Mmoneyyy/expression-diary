@@ -12,14 +12,14 @@ import javax.validation.constraints.NotBlank;
 public class MemberInsertDTO {
 
     @NotNull
-    private Long id;
+    private Long memberId;
 
     @NotBlank
     private String password;
 
     @Builder
     public MemberInsertDTO(Long id, String password) {
-        this.id = id;
+        this.memberId = memberId;
         this.password = password;
     }
 

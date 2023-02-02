@@ -1,4 +1,4 @@
-package com.moneyyy.expressionDiary.dto;
+package com.moneyyy.expressionDiary.dto.member;
 
 import com.sun.istack.NotNull;
 import lombok.Builder;

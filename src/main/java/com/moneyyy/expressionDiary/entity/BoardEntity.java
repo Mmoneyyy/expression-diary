@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.util.Date;
 
 @Entity
@@ -21,11 +22,16 @@ public class BoardEntity {
     private Long boardId;
 
     @Column(length = 50)
+    @NotBlank
     private String title;
 
     @Column(length = 300)
+    @NotBlank
     private String content;
 
     private Date regDate;
+
+    @ManyToOne
+    private MemberEntity memberEntity;
 
 }

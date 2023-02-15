@@ -1,6 +1,6 @@
 package com.moneyyy.expressionDiary.controller;
 
-import com.moneyyy.expressionDiary.service.MemberService;
+import com.moneyyy.expressionDiary.service.member.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
